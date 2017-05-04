@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 2400px;
+  height: 2306px;
+  background-color: black;
+  margin: 0px auto;
+}
+.@font-face {
+font-family: LeagueGothic;
+src: url(C:front_end\homework7_8\fonts\league-gothic-regular.ttf)
+}
+.hs{
+  width: 2400px;
+  height: 869px;
+  background-image: url(header_background.png);
+}
+.header{
+  width: 970px;
+  height: 169px;
+  margin: 0px auto;
+}
+.logo{
+  width: 250px;
+  height: 100px;
+  float: left;
+}
+.header_menu{
+  float: left;
+}
+.header_menu_ul{
+  list-style: none;
+  text-transform: uppercase;
+}
+.header_menu_li{
+  display: inline;
+}
+.header_menu_li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: LeagueGothic;
+  text-shadow: 1px 1px 2px black;
+}
+.slider{
+  width: 2400px;
+  height: 700px;
+}
