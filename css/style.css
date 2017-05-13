@@ -19,12 +19,14 @@ src: url("../fonts/league-gothic-regular.ttf");
 }
 .header{
   width: 970px;
-  height: 169px;
+  height: 278px;
   margin: 0px auto;
 }
 .logo{
   width: 250px;
   height: 100px;
+  margin-top: 51px;
+  margin-left: 4px;
   float: left;
 }
 .header_menu{
@@ -47,17 +49,117 @@ src: url("../fonts/league-gothic-regular.ttf");
 .slider{
   width: 2400px;
   height: 700px;
-
 }
 .slider_1{
   width: 2400px;
-  height: 700px;
+  height: 400px;
   background-image: url("slider.png");
-  position: absolute;
 }
 .slider_1_text{
+  width: 400px;
+  height: 400px;
+  margin-left: 720px;
   float: left;
 }
+.slider_1_text_h1{
+  color: white;
+  font-family: "LeagueGothic";
+  font-size: 60px;
+}
+.slider_1_text_h2{
+  color: rgb(237, 191, 255);
+  font-family: "LeagueGothic";
+  font-size: 24px;
+}
+.slider_1_text_p{
+  color: white;
+  font-family: "LeagueGothic";
+  font-size: 10px;
+}
 .slider_1_phone{
+  margin-left: 215px;
+  margin-top: -17px;
   float: left;
+}
+.slider_2{
+  width: 2000px;
+  height: 30px;
+  }
+.slider_2_img{
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.about{
+  width: 2384px;
+  height: 340px;
+  border: solid black 1px;
+  background-color: purple;
+}
+.about_in{
+  width: 960px;
+  height: 340px;
+  background-color: yellow;
+  margin: 0px auto;
+}
+.about_in1{
+  float: left;
+  width: 320px;
+  height: 340px;
+  background-color: orange;
+}
+.about_in1_sprite{
+  float: left;
+  width: 25px;
+  height: 100px;
+  background: url(../images/sprite.png) 0 0 no-repeat;
+  margin-top: 86px;
+}
+.about_in1_text{
+width: 230px;
+height: 160px;
+margin-top: 80px;
+margin-left: 50px;
+}
+.about_in1_text1{
+  color: white;
+  font-family: "LeagueGothic";
+  font-size: 24px;
+}
+.about_in1_text2{
+  color: white;
+  font-style: open sans light;
+  font-size: 11px;
+}
+.about_in1_text3{
+  float: right;
+  color: white;
+  font-family: "LeagueGothic";
+  font-size: 14px;
+}
+.about_in2{
+  float: left;
+  width: 320px;
+  height: 340px;
+  background-color: green;
+}
+.about_in2_sprite{
+  width: 28px;
+  height: 25px;
+  background: url(../images/sprite.png) 0 0 no-repeat;
+  background-position: -26px 0;
+}
+.about_in3{
+  float: left;
+  width: 320px;
+  height: 340px;
+  background-color: red;
+}
+.about_in3_sprite{
+  width: 25px;
+  height: 25px;
+  background: url(../images/sprite.png) 0 0 no-repeat;
+  background-position: -54px 0;
 }
