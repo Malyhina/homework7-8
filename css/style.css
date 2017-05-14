@@ -5,7 +5,7 @@
 .main{
   width: 2400px;
   height: 2306px;
-  background-color: black;
+  background-color: yellow;
   margin: 0px auto;
 }
 @font-face {
@@ -93,22 +93,21 @@ src: url("../fonts/league-gothic-regular.ttf");
   right:0;
 }
 .about{
-  width: 2384px;
+  width: 2400px;
   height: 340px;
-  border: solid black 1px;
-  background-color: purple;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  background-image: linear-gradient(to bottom, rgb(116, 80, 131), rgb(50,37,57));
 }
 .about_in{
   width: 960px;
   height: 340px;
-  background-color: yellow;
   margin: 0px auto;
 }
 .about_in1{
   float: left;
   width: 320px;
   height: 340px;
-  background-color: orange;
 }
 .about_in1_sprite{
   float: left;
@@ -126,40 +125,80 @@ margin-left: 50px;
 .about_in1_text1{
   color: white;
   font-family: "LeagueGothic";
-  font-size: 24px;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
 }
 .about_in1_text2{
   color: white;
   font-style: open sans light;
-  font-size: 11px;
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }
 .about_in1_text3{
   float: right;
   color: white;
   font-family: "LeagueGothic";
   font-size: 14px;
+  text-shadow: 2px 2px 2px white;
 }
 .about_in2{
   float: left;
   width: 320px;
   height: 340px;
-  background-color: green;
 }
 .about_in2_sprite{
+  float: left;
   width: 28px;
-  height: 25px;
+  height: 100px;
+  margin-top: 80px;
   background: url(../images/sprite.png) 0 0 no-repeat;
   background-position: -26px 0;
+}
+.about_in2_text{
+  width: 230px;
+  height: 160px;
+  margin-top: 80px;
+  margin-left: 50px;
 }
 .about_in3{
   float: left;
   width: 320px;
   height: 340px;
-  background-color: red;
 }
 .about_in3_sprite{
+  float: left;
   width: 25px;
-  height: 25px;
+  height: 100px;
+  margin-top: 80px;
   background: url(../images/sprite.png) 0 0 no-repeat;
   background-position: -54px 0;
+}
+.about_in3_text{
+  width: 230px;
+  height: 160px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.t_b{
+  width: 2400px;
+  height: 485px;
+  background-color: rgb(249, 249, 249);
+  border-bottom: solid 1px rgb(230, 230, 230);
+}
+.logos{
+  width: 2400px;
+  height: 119px;
+  background-color: rgb(249, 249, 249);
+  border-top: solid 1px rgb(254, 254, 254);
+  border-bottom: solid 1px rgb(254, 254, 254);
+  text-align: center;
+}
+.footer_1{
+  width: 2400px;
+  height: 396px;
+  background-color: rgb(236, 236, 236);
+  border-top: solid 1px rgb(216, 216, 216);
+}
+.footer_2{
 }
