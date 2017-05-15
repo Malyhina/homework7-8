@@ -186,6 +186,52 @@ margin-left: 50px;
   background-color: rgb(249, 249, 249);
   border-bottom: solid 1px rgb(230, 230, 230);
 }
+.t_b_centre{
+  width: 960px;
+  height: 485px;
+  margin: 0 auto;
+}
+.testimonials{
+  width: 480px;
+  height: 485px;
+  background-color: grey;
+  float: left;
+}
+.ts_back{
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 427px;
+  height: 292px;
+  background-image: url("ts_background.png");
+}
+.testimonials_pic{
+  width: 49px;
+  height: 292px;
+  margin-top: 20px;
+  float: left;
+}
+.testimonials_txt{
+}
+.testimonials_txt_1{
+  font-family: "LeagueGothic";
+  float: left;
+  text-transform: uppercase;
+  color: grey;
+}
+.testimonials_txt_2{
+  font-family: "LeagueGothic";
+  text-transform: uppercase;
+  color: pink;
+}
+.testimonials_txt_3{
+
+}
+.blog{
+  width: 480px;
+  height: 485px;
+  background-color: green;
+  float: left;
+}
 .logos{
   width: 2400px;
   height: 119px;
@@ -201,4 +247,7 @@ margin-left: 50px;
   border-top: solid 1px rgb(216, 216, 216);
 }
 .footer_2{
+  width: 2400px;
+  height: 114px;
+  background-image: url("footer_2.png");
 }
